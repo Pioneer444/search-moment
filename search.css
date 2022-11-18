@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: rgb(240, 239, 243);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 500px;
+    height: 600px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.container::-webkit-scrollbar{
+    display: none;
+}
+
+.container form{
+    width: 100%;
+    border: 1.3px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container form input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 10px; 
+
+}
+
+.container form i {
+    display: flex;
+}
+
+.container form i img{
+    margin-left: 10px;
+}
+
+.product-list{
+    padding: 20px 0px;
+}
+
+.product{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 15px;
+    
+}
+
+.product img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.08);
+}
+
+.p-details{
+    padding-left: 15px;
+}
+
+.p-details h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: #1d1d1d;
+}
+
+.p-details h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #1d1d1d;
+}
